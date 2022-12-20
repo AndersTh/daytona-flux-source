@@ -8,7 +8,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: source-repository
-    namespace: flux-workspace
+    namespace: default
   path: ./clusters/stockholm/infra
   prune: true
   decryption:
